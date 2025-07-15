@@ -1,0 +1,23 @@
+Python Strings Manipulation:
+  I demonstrated how Python handles single quotes, double quotes, and multi-line strings. It’s important in text processing to know how to define strings that contain quotes or span multiple lines without syntax errors.
+
+Installing and Using Jieba for Chinese Tokenization:
+  I used to tokenize Chinese text using Jieba, a widely used Chinese word segmentation module. Unlike English, Chinese doesn't use spaces between words, so segmentation is critical for further processing like classification or translation.
+
+Downloading and Processing English Text from Project Gutenberg:
+  I used a url of public domain English literary text (The Scarlet Letter) for analysis. Such texts are excellent examples for training and testing NLP techniques like tokenization, frequency analysis, or summarization.
+
+Installing and Using NLTK for Tokenization:
+     To tokenize the English text into words using NLTK (Natural Language Toolkit). I learnt that Tokenization is the first step in NLP. It breaks text into individual units (tokens) for further analysis.
+    
+Source URL: https://www.gutenberg.org/cache/epub/25344/pg25344.txt
+Title: The Scarlet Letter
+Author: Nathaniel Hawthorne
+Publisher: Project Gutenberg
+Date Accessed: 15 July 2025
+eBook Number: #25344
+Copyright Clause: This book is in the public domain.
+From the text:
+You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.org
+Validation: Availability as of July 15, 2025. Since it is a public domain work hosted by Project Gutenberg, it is expected to be available indefinitely.
+
