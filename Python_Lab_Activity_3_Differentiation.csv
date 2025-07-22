@@ -1,0 +1,7 @@
+﻿Feature,My Python Code,"Real-World Apps (e.g., Airbnb, MakeMyTrip)"
+"Input Source		",User manually inputs favorite places,"Browsing behavior, bookings, reviews, wishlists"
+Scalability,Works for few users and places,Handles millions of users and listings globally
+Filtering Options,"Basic manual filters (position, sort, reverse)","Filter by price, amenities, ratings, location, accessibility"
+Business Model,Educational / project use,"Monetized: hosts earn money, commission for bookings"
+Machine Learning Models,Simple similarity matching (list intersection),"Advanced ML, NLP, geo-based suggestions, personalization algorithms"
+Recommendation,Simple collaborative filtering,Hybrid filtering (collaborative + content-based + geo + price)
