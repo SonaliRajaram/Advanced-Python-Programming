@@ -1,0 +1,53 @@
+1. Factorial of 100
+Code: Loops from 100 down to 1, multiplying to find the factorial.
+Correctness: Valid and gives the right output.
+Observation: Python handles big integers automatically.
+
+2. String Immutability
+Demonstrates how strings are immutable in Python using id() values.
+Alternative: Building strings using a list and ''.join() is memory efficient.
+
+3. Unicode Handling
+Shows how to print characters using Unicode escape sequences (\uXXXX).
+Also uses unicodedata.lookup() to find characters like:
+-Ω (Greek Omega)
+-😀 (Grinning Face)
+-Chinese and Indian characters
+
+4. Keyboard Character Unicode Encoding
+Converts any user-entered character into Unicode format using:
+ord(character) -> integer
+f'\\u{unicode:04x}' -> string format
+
+5. NLTK POS Tagging
+I used POS tagging to analyze the textual content fetched from a URL — not the URL itself (like https://example.com), but the text data extracted from a webpage or input provided via a URL.
+
+Reasons for Using POS Tagging on URL Text:
+
+1. To Understand the Grammar of Web Content
+*URLs often point to pages that contain informative paragraphs.
+*Applying POS tagging helps determine:
+Which words are nouns (products, people, places),
+Which are verbs (actions),
+Which are adjectives (descriptions), etc.
+*This helps the machine understand what the page is about.
+
+2. For Information Extraction
+*POS tagging helps in extracting specific information from web pages.
+Example: Extracting names of people (NNP), dates (CD), or actions (VB).
+*Useful in building scrapers, chatbots, or search engines that understand content semantically.
+
+3. For Filtering and Summarization
+*By tagging parts of speech, you can:
+Identify important words (like nouns and verbs),
+Filter out unimportant ones (like "the", "and", "of"),
+And build a summary of the web content.
+
+4. Support NLP Tasks from Web Text
+*If your project or lab involves:
+Sentiment analysis,
+Topic modeling,
+Keyword extraction,
+Named entity recognition,
+Then POS tagging becomes a foundational step after retrieving data from a URL.
+
